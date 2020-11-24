@@ -1,5 +1,11 @@
 # @keystone-next/fields
 
+## 3.2.0
+
+### Minor Changes
+
+- [`8b12f795d`](https://github.com/keystonejs/keystone/commit/8b12f795d64dc085ca663921aa6826350d234cd0) [#4337](https://github.com/keystonejs/keystone/pull/4337) Thanks [@mitchellhamilton](https://github.com/mitchellhamilton)! - Added `extraSelection` prop to RelationshipSelect
+
 ## 3.1.0
 
 ### Minor Changes

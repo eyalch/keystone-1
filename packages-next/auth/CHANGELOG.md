@@ -1,5 +1,20 @@
 # @keystone-next/auth
 
+## 5.0.1
+
+### Patch Changes
+
+- [`8543f732b`](https://github.com/keystonejs/keystone/commit/8543f732bfc33c193675c1db385b8e2c15d3f273) [#4371](https://github.com/keystonejs/keystone/pull/4371) Thanks [@timleslie](https://github.com/timleslie)! - Fixed the `generateToken` algorithm to reduce the chance of generating a short token.
+
+* [`2c5135f17`](https://github.com/keystonejs/keystone/commit/2c5135f17ccf94412f074b1bdd04592ea7c25d31) [#4370](https://github.com/keystonejs/keystone/pull/4370) Thanks [@timleslie](https://github.com/timleslie)! - Updated `getMagicAuthLinkSchema` code to use items API rather than adapter. Fixed hard-coding of `listKey: 'User'` when redeeming tokens.
+
+- [`8baad4a14`](https://github.com/keystonejs/keystone/commit/8baad4a147e224bf99daeb91337d2eedea2f879b) [#4374](https://github.com/keystonejs/keystone/pull/4374) Thanks [@timleslie](https://github.com/timleslie)! - Updated library code to no longer require a full `context` object.
+
+* [`2ab785c79`](https://github.com/keystonejs/keystone/commit/2ab785c793231555ac254b24908ca0e8d1ac7c95) [#4372](https://github.com/keystonejs/keystone/pull/4372) Thanks [@timleslie](https://github.com/timleslie)! - Fixed return value of `sendItemPasswordResetLink`.
+
+* Updated dependencies [[`8b12f795d`](https://github.com/keystonejs/keystone/commit/8b12f795d64dc085ca663921aa6826350d234cd0)]:
+  - @keystone-next/fields@3.2.0
+
 ## 5.0.0
 
 ### Minor Changes

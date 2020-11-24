@@ -1,6 +1,6 @@
 {
   "name": "@keystone-next/auth",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "license": "MIT",
   "main": "dist/auth.cjs.js",
   "module": "dist/auth.esm.js",
@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/runtime": "^7.12.5",
     "@graphql-tools/merge": "^6.2.5",
-    "@keystone-next/fields": "^3.1.0",
+    "@keystone-next/fields": "^3.2.0",
     "@keystone-next/types": "^4.1.0",
     "@keystone-ui/button": "^2.0.1",
     "@keystone-ui/core": "^1.0.2",
